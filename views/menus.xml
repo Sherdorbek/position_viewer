@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <menuitem id="menu_position_viewer_root" name="Positions"
+              web_icon="position_viewer,static/description/icon.svg"
+              sequence="50"/>
+
+    <menuitem id="menu_position_viewer_list" name="Positions"
+              parent="menu_position_viewer_root"
+              action="action_api_position" sequence="10"/>
+
+    <menuitem id="menu_position_viewer_import" name="Import from API"
+              parent="menu_position_viewer_root"
+              action="action_position_import" sequence="20"/>
+
+</odoo>

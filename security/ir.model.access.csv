@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_api_position_user,api.position user,model_api_position,base.group_user,1,0,0,1
+access_api_position_attribute_user,api.position.attribute user,model_api_position_attribute,base.group_user,1,0,0,0
+access_position_import_user,position.import user,model_position_import,base.group_user,1,1,1,1
